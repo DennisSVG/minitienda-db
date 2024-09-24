@@ -63,6 +63,7 @@ begin
      delete from tbl_provedores where prov_id = v_id;
 end//
 DELIMITER ;
+
 -- Productos
 -- Insertar 
 DELIMITER //

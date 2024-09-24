@@ -30,6 +30,7 @@ end//
 DELIMITER ;
 
 -- Proveedores
+
 -- Insertar 
 DELIMITER //
 create procedure procInsertProviders(IN v_nit VARCHAR(45), IN v_nombre VARCHAR(100))
@@ -63,6 +64,8 @@ begin
      delete from tbl_provedores where prov_id = v_id;
 end//
 DELIMITER ;
+
+
 -- Productos
 
 -- Usuarios
